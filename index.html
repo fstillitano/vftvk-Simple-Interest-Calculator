@@ -1,3 +1,7 @@
+<!-- Final assessment for the 'Introduction to Web Development with HTML, CSS, JavaScript' course.
+Author: Federico Stillitano
+Date: 15/02/2022
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,9 +12,13 @@
 </head>
 <body>
 	<div class="maindiv">
-		<h1>Simple Interest Calculator</h1>Amount <input id="principal" type="number"><br>
-		Rate <input id="rate" max="20" min="1" onchange="updateRate();" step="0.25" type="range" value="10.25"> <span id="rate_val">10.25</span> <label>%</label><br>
-		No. of Years <select id="years">
+		<h1>Simple Interest Calculator</h1>
+        <!-- Amount input -->
+        Amount <input id="principal" type="number"><br>
+	    <!-- Interest rate input -->
+        Rate <input id="rate" max="20" min="1" onchange="updateRate();" step="0.25" type="range" value="10.25"> <span id="rate_val">10.25</span> <label>%</label><br>
+		<!-- Years input -->
+        No. of Years <select id="years">
 			<option value="1">
 				1
 			</option>
@@ -44,7 +52,8 @@
 		</select><br>
 		Interest :<br>
 		<br>
-		<span id="result"></span><br>
+		<!-- Output -->
+        <span id="result"></span><br>
 		<button onclick="compute()">Compute Interest</button><br>
 		<br>
 		<footer>

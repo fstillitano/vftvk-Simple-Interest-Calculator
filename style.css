@@ -1,11 +1,14 @@
-body {
+html, body {
 	background-color: black;
 	font-family: arial;
-	color: white
+	color: white;
+    height: 100%;
 }
 h1 {
 	color: grey;
 	font-family: verdana
+
+/* Styling for main calculator component */
 }
 .maindiv {
 	background-color: white;
@@ -14,4 +17,7 @@ h1 {
 	padding: 20px;
 	border-radius: 25px;
 	margin: auto;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
 }
